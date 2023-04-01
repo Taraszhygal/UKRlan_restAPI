@@ -62,7 +62,7 @@ app.get('/data', async (req, res) => {
       }
       query += ` limit ${limit} `
     } else {
-      query += ` limit 25 `
+      query += ` limit 1000 `
     }
 
     if (offset) {
